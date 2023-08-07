@@ -148,7 +148,7 @@ def main(repo='',path='',ipynb=''):
     repo_name = "kplr-training/Machine-Learning"
 
     # mettre votre clé github
-    g = Github("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")
+    g = Github("###############")
     user = g.get_user()
        
     repo = g.get_repo(repo_name)           

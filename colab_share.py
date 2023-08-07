@@ -1,7 +1,5 @@
 import os
 import sys
-#from dotenv import load_dotenv
-
 from github import Github
 from tqdm import tqdm
 from googletrans import Translator
@@ -146,7 +144,6 @@ def main(repo='',path='',ipynb=''):
         path (str, optional): _description_. Defaults to ''.
         ipynb (str, optional): _description_. Defaults to   ''.
     """
-    #load_dotenv()
     # specifier le nom du repo.
     repo_name = "kplr-training/Machine-Learning"
 
